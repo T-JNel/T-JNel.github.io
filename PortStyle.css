@@ -77,3 +77,11 @@ button:active {
     padding: 10px;
     margin: 10px;
 }
+@media (max-width: 768px) {
+    .Box {
+        flex-direction: column;
+    }
+    .PS {
+        width: 100%;
+    }
+}
