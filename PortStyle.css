@@ -10,7 +10,8 @@ ul {
     padding: 0px 30px;
 }
 img {
-    width: 300px;
+    max-width: 100%;
+    height: auto;
     border: 2px dashed #d8a8a0;
     border-radius: 15px;
     object-fit: cover;
