@@ -2,7 +2,8 @@ body {
     background-color: #2d1a47;
     font-style: oblique;
     padding: 10px 5px 10px 5px;
-    
+    width: 100%;
+    max-width: 1200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ul {
