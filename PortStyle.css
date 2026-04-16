@@ -1,0 +1,77 @@
+body {
+    background-color: #2d1a47;
+    font-style: oblique;
+    padding: 10px 5px 10px 5px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+    padding: 0px 30px;
+}
+img {
+    width: 300px;
+    border: 2px dashed #d8a8a0;
+    border-radius: 15px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+img:hover {
+    transform: scale(1.02);
+}
+iframe {
+    border: 2px dashed #d8a8a0;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
+iframe:hover {
+    transform: scale(1.02);
+}
+button {
+    background-color: #d8a8a0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: antiquewhite;
+    color: grey;
+}
+button:active {
+    transform: scale(0.95);
+}
+.head {
+    text-align: center;
+    background-color: #faf7f2;
+    border: 2px solid #d8a8a0;
+    border-radius: 5px;
+    margin: 10px;
+}
+.Box {
+    display: flex;
+    flex-direction: column;
+    background-color: #faf7f2;
+    border: 2px solid #d8a8a0;
+    border-radius: 5px;
+    margin: 10px;
+}
+.PS {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px
+}
+.pf {
+    padding: 10px;
+    margin: 10px;
+}
+.skill {
+    padding: 10px;
+    margin: 10px;
+}
+.prjct {
+    padding: 10px;
+    margin: 10px;
+}
