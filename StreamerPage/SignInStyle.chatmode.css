@@ -1,0 +1,16 @@
+body {
+    background-color: #c9a0ff;
+}
+
+    input[type=text] {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: white;
+        border-radius: 5px;
+        margin: 5px 0 20px 0
+    }
+    .Login {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: grey;
+        border-radius: 10px;
+        text-decoration: dotted;
+    }
